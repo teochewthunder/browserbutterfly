@@ -6,4 +6,4 @@ JavaScript wil randomize certain attributes of the butterfly, such as **size**, 
 
 The first three attributes are achieved by modifying the butterfly's "wrapper". In particular, all divs inside the "wrapper" are sized relatively to the wrapper, so modifying the height and width of the "wrapper" will scale the butterfly nicely.
 
-The ,ain JavaScript function is *flutter()*, which will recursively call itself via the *setTimeout()* callback at the end, so that a new set of randomized attributes now apply to the butterfly, causng it to look like it's fluttering around the screen and moving nearer/further away from the user.
+The ,ain JavaScript function is `flutter()`, which will recursively call itself via the `setTimeout()` callback at the end, so that a new set of randomized attributes now apply to the butterfly, causng it to look like it's fluttering around the screen and moving nearer/further away from the user.
